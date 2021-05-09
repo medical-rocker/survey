@@ -1,0 +1,12 @@
+# ignore all directories and files
+*
+
+# allow directories below
+!system_prerequisites
+
+# allow files below
+!*.md
+!.gitignore
+
+!system_prerequisites/*.R
+!system_prerequisites/*.Rmd
